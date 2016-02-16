@@ -1,4 +1,4 @@
-#!/usr/bin/swift
+#!/home/lwj/tool/swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04/usr/bin/swift
 print("hello world!")
 
 var usrs = ["xavira","ryan","brenda","james","sarach"]
@@ -128,10 +128,3 @@ let cw :Character = "w"
 if let foundat = str.characters.indexOf(cw) {
 	print(foundat)
 }
-
-import Foundation
-let message = "Hi there %name%, welcome to the party!"
-let tag = "%name%"
-let guest = "Lisa"
-let greeting = message.stringByReplacingOccurrencesOfString(tag, withString:guest)
-print(greeting)
